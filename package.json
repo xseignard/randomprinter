@@ -1,0 +1,27 @@
+{
+  "name": "randomprinter",
+  "version": "1.0.0",
+  "description": "Randomly print some stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xseignard/randomprinter.git"
+  },
+  "author": "Xavier Seignard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xseignard/randomprinter/issues"
+  },
+  "homepage": "https://github.com/xseignard/randomprinter#readme",
+  "dependencies": {
+    "canvas": "^1.4.0",
+    "request": "^2.74.0",
+    "serialport": "^4.0.1",
+    "sharp": "^0.16.0",
+    "thermalprinter": "^0.3.8",
+    "uuid": "^2.0.2"
+  }
+}
